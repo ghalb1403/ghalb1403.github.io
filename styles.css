@@ -12,14 +12,15 @@ body, html {
   width: fit-content;
   height: 100vh;
   margin: auto;
+  gap: 2px;
 }
 
 .cell {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100px; /* تنظیم عرض هر سلول */
-  height: 100px; /* تنظیم ارتفاع هر سلول */
+  width: 100px;
+  height: 100px;
 }
 
 .modal {
