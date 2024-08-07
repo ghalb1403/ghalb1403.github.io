@@ -13,10 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   grid.addEventListener('click', function(event) {
     if (event.target.classList.contains('cell')) {
-      const index = Array.from(grid.children).indexOf(event.target);
       modal.style.display = 'flex';
       modalImg.src = event.target.style.backgroundImage.slice(5, -2);
-      captionText.textContent = captions[index] || "متن ندارد این عکس";
+      captionText.textContent = 'توضیحات تصویر اینجا';
     }
   });
 
