@@ -18,7 +18,8 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
+  aspect-ratio: 1 / 1; /* تضمین نمایش مربعی */
+  width: 100%;
 }
 
 .modal {
@@ -56,4 +57,26 @@ body, html {
   color: #f1f1f1;
   font-size: 30px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+  }
+
+  .cell {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-content {
+    width: 90%;
+    height: auto;
+  }
+
+  .caption {
+    font-size: 14px;
+  }
 }
