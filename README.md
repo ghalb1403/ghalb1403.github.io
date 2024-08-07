@@ -38,3 +38,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Note:** This is a basic example. You can enhance the project by adding features like image loading optimization, error handling, more advanced modal functionality, and improved accessibility.
 
 **Enjoy!**
+
