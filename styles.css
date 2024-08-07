@@ -1,32 +1,29 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
   overflow: hidden;
+  height: 100vh;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(9, 1fr);
-  width: fit-content;
-  height: 100vh;
-  margin: auto;
-  gap: 2px;
+  width: 100%;
+  height: 100%;
+  gap: 1px;
 }
 
 .cell {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100px;
-  height: 100px;
 }
 
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
@@ -37,65 +34,21 @@ body, html {
 }
 
 .modal-content {
-  display: block;
   width: 300px;
   height: 300px;
-  object-fit: contain;
   background-color: white;
 }
 
 .caption {
   color: #fff;
   text-align: center;
-  margin-top: 20px;
-  font-size: 16px;
 }
 
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
+  top: 20px;
+  right: 20px;
   color: #f1f1f1;
   font-size: 40px;
-  font-weight: bold;
   cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 2px;
-  }
-
-  .cell {
-    width: 80px;
-    height: 80px;
-  }
-
-  .modal-content {
-    width: 90%;
-    height: auto;
-  }
-
-  .caption {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 769px) {
-  .grid {
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(9, 1fr);
-  }
-
-  .cell {
-    width: 100px;
-    height: 100px;
-  }
-
-  .modal-content {
-    width: 300px;
-    height: 300px;
-  }
 }
