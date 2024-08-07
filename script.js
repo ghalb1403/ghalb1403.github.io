@@ -31,3 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
     event.stopPropagation();
   });
 });
+
+window.onload = function() {
+  const modal = document.getElementById('modal');
+  modal.style.display = 'none';
+};
