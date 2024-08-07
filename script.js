@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Here is our first picture.",
     "Here is our second picture.",
     "Here is our third picture.",
-    
+    // تا تصویر شماره 63...
   ];
 
   for (let i = 1; i <= 63; i++) {
@@ -22,7 +22,7 @@ function showModal(index, caption) {
   const modal = document.getElementById('modal');
   const modalImg = document.getElementById('img01');
   const captionText = document.getElementById('caption');
-  modal.style.display = "block";
+  modal.style.display = "flex";
   modalImg.src = `images/grids_${String(index).padStart(2, '0')}.jpg`;
   captionText.innerHTML = caption;
   document.querySelector('.close').onclick = function() {
