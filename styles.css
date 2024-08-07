@@ -64,6 +64,8 @@ body, html {
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
   }
 
   .cell {
