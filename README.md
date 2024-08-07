@@ -12,7 +12,7 @@ This repository contains a simple image gallery built with HTML, CSS, and JavaSc
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ghalb1403/ghalb1403.github.io](https://github.com/ghalb1403/ghalb1403.github.io)
+   git clone https://github.com/ghalb1403/ghalb1403.github.io
    ```
 
 2. Open the `index.html` file in a web browser.
@@ -39,3 +39,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Enjoy!**
 
+<div align="center">
+  <img 
+    style="width: 700px;"
+    src="https://github.com/ghalb1403/ghalb1403.github.io/blob/main/Preview.jpg">
+</div>
