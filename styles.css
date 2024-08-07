@@ -52,3 +52,25 @@ body, html {
   font-size: 40px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+  }
+
+  .cell {
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-content {
+    width: 80%;
+    height: auto;
+  }
+
+  .caption {
+    font-size: 14px;
+  }
+}
