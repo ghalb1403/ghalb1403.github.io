@@ -40,22 +40,3 @@ window.onload = function() {
   const modal = document.getElementById('modal');
   modal.style.display = 'none';
 };
-
-document.addEventListener('DOMContentLoaded', function() {
-  const container = document.querySelector('.image-container');
-  const img = container.querySelector('img');
-
-  let isZoomed = false;
-
-  container.addEventListener('click', function() {
-    if (!isZoomed) {
-      img.style.transform = 'scale(2)';
-      container.style.cursor = 'zoom-out';
-      isZoomed = true;
-    } else {
-      img.style.transform = 'scale(1)'; 
-      container.style.cursor = 'zoom-in';
-      isZoomed = false;
-    }
-  });
-});
