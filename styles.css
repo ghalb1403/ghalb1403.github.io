@@ -72,6 +72,18 @@ body, html {
   border-radius: 50%;
 }
 
+.image-container {
+  overflow: hidden;
+  position: relative;
+  cursor: zoom-in;
+}
+
+.image-container img {
+  transition: transform 0.25s ease;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
 
 @media (max-width: 768px) {
   .grid {
