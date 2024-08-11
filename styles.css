@@ -78,3 +78,19 @@ body, html {
     grid-template-rows: repeat(3, 1fr);
   }
 }
+
+header {
+  text-align: center;
+  margin: 20px 0;
+  color: #5381b9;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 18px;
+  color: #5381b9;
+}
