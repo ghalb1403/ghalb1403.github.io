@@ -9,16 +9,19 @@ body, html {
 body {
   direction: rtl;
   unicode-bidi: embed;
+  font-family: 'Vazir', sans-serif;
 }
 
 .rtl {
   direction: rtl;
   unicode-bidi: embed;
+  font-family: 'Vazir', sans-serif;
 }
 
 .ltr {
   direction: ltr;
   unicode-bidi: bidi-override;
+  font-family: 'Roboto', sans-serif;
 }
 
 .grid {
