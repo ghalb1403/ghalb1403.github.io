@@ -6,6 +6,21 @@ body, html {
   max-height: 100vh;
 }
 
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.rtl {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.ltr {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
