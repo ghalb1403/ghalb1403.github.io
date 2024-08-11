@@ -6,7 +6,7 @@ body, html {
   max-height: 100vh;
 }
 
-body {
+.caption {
   direction: rtl;
   unicode-bidi: embed;
   font-family: 'Vazir', sans-serif;
