@@ -146,3 +146,18 @@ footer {
   color: #666;
   border-top: 1px solid #ddd;
 }
+
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.section-title h2 {
+  display: inline-block;
+  background: linear-gradient(120deg, #608ed8 0%, #c2e9fb 100%);
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
