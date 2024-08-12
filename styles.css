@@ -6,7 +6,7 @@ body, html {
   max-height: 100vh;
 }
 
-.caption, h3 {
+.caption, h3, footer {
   direction: rtl;
   unicode-bidi: embed;
   font-family: 'Vazir', sans-serif;
@@ -137,4 +137,12 @@ header h2 {
 
 .member-info p {
   margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f2f2f2;
+  color: #666;
+  border-top: 1px solid #ddd;
 }
