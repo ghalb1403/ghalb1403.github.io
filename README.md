@@ -1,7 +1,10 @@
 # Ghalb1403 Website
 
 **Description:**
+
 This repository contains a simple image gallery built with HTML, CSS, and JavaScript. It displays images in a grid layout and allows users to view larger versions of the images in a modal.
+
+This modal view not only enhances the visual detail of the images but also provides a focused view without leaving the gallery page.
 
 **Features:**
 * Responsive grid layout for different screen sizes
